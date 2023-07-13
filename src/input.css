@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-active {
+  @apply bottom-0 scale-100;
+}
+
+.nav-fixed {
+  @apply bg-opacity-50;
+  backdrop-filter: blur(2px);
+}
+
+.menu {
+  @apply w-full h-[.15rem] bg-slate-50 rounded;
+}
+
+.menu-active > :nth-child(1){
+  @apply rotate-45
+}
+.menu-active > :nth-child(2){
+  @apply scale-0
+}
+.menu-active > :nth-child(3){
+  @apply -rotate-45
+}
