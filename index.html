@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porto.</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="w-full bg-slate-900 text-neutral-300 relative pb-[100rem]">
+    <header
+      class="flex flex-col fixed header-active w-full rounded-[.7rem] pb-20"
+      id="nav-fixed"
+    >
+      <nav
+        class="px-3 py-2 text-2xl font-semibold uppercase flex justify-between items-center z-10 rounded-b-md nav-fixed"
+      >
+        <h2 class="ml-1">
+          Andro<span class="text-slate-400">izz</span>
+          <span class="text-slate-200">.</span>
+        </h2>
+        <button class="flex w-5 h-4 flex-col gap-[.3rem] mr-1" id="menu">
+          <span
+            class="menu origin-bottom-left transition duration-300 ease-in-out"
+          ></span>
+          <span class="menu"></span>
+          <span
+            class="menu origin-top-left transition duration-300 ease-in-out"
+          ></span>
+        </button>
+      </nav>
+      <nav
+        class="px-4 py-3 w-full capitalize tracking-wide font-normal rounded-b-lg absolute duration-200 bottom-[10rem] bg-opacity-50"
+        id="navBar"
+        style="backdrop-filter: blur(2px)"
+      >
+        <ul>
+          <li><a href="#" class="hover:text-slate-400">home</a></li>
+          <li><a href="#about" class="hover:text-slate-400">about</a></li>
+          <li><a href="#porto" class="hover:text-slate-400">portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="w-full h-[100vh] flex justify-center items-center flex-col">
+      <div class="p-10 w-[80%] md:w-[60%]">
+        <h2 class="text-4xl font-extrabold uppercase mb-3">
+          ANDRO<span class="text-slate-400">izz</span>
+        </h2>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sit
+          inventore? Libero placeat!
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="w-full h-[100vh] bg-transparent flex flex-col justify-center"
+    >
+      <div
+        class="w-full h-[200px] px-10 py-5 flex items-center flex-col bg-slate-800 gap-3"
+      >
+        <h2 class="text-2xl font-bold uppercase">
+          about ANDRO<span class="text-slate-400">izz</span>
+        </h2>
+        <div class="sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] 2xl:w-[20%] ">
+          <p class="text-lg text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+            nihil quas deserunt quos dolore possimus aut a voluptate modi
+            tempora!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <h2 class="text-3xl font-bold text-center">
+        Website Masih Dalam Perkembangan Developer
+      </h2>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
